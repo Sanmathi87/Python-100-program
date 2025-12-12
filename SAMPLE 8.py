@@ -1,6 +1,6 @@
 a=int(input("Enter 1st number:"))
 b=int(input("Enter 2nd number:"))
-c=input("Enter the operation +,-,*,/,*:")
+c=input("Enter the operation +,-,/,*:")
 print("The result is:",end='')
 if c=='+':
     print(a+b)
@@ -16,5 +16,6 @@ else:
 Output:
 Enter 1st number:45
 Enter 2nd number:300
-Enter the operation +,-,*,/,*:*
+Enter the operation +,-,/,*:*
 The result is:13500    
+
